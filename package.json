@@ -1,0 +1,29 @@
+{
+    "name": "huxley-sales-bot",
+    "version": "0.0.1",
+    "description": "Interactive bot that lists items for sale on OS based off serial number input",
+    "main": "index.js",
+    "engines": {
+        "node": "16.13.2",
+        "npm": "8.1.2"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@discordjs/builders": "^0.12.0",
+        "@discordjs/rest": "^0.3.0",
+        "discord-api-types": "^0.27.3",
+        "discord.js": "^13.6.0",
+        "dotenv": "^16.0.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.5.0",
+        "eslint-config-airbnb": "^19.0.2",
+        "eslint-plugin-import": "^2.25.3",
+        "eslint-plugin-json": "^3.1.0"
+    }
+}
